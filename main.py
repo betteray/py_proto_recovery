@@ -1,6 +1,6 @@
 # coding=utf-8
 
-import descriptor_pb2
+from google.protobuf import descriptor_pb2
 
 def getLabel(label):
     if label == descriptor_pb2.FieldDescriptorProto.LABEL_OPTIONAL:
